@@ -142,7 +142,7 @@ class Bot(discord.Client):
         self.answer_scores = answer_scores
 
         # embed creation
-        self.embed=discord.Embed(title="__Trivia Support__",description = '**Google Connecting**🔍',colour = discord.Colour.green())
+        self.embed=discord.Embed(title="__aryan singh__",description = '**aryan Connecting**🔍',colour = discord.Colour.green())
         self.embed.add_field(name="__OPTION 1__", value="0", inline=False)
         self.embed.add_field(name="__OPTION 2__", value="0", inline=False)
         self.embed.add_field(name="__OPTION 3__", value="0", inline=False)
@@ -277,7 +277,7 @@ def bot_with_cyclic_update_process(update_event, answer_scores):
     upd_thread.start()
 
     loop = asyncio.get_event_loop()
-    loop.create_task(bot.start('NjM5Nzk3NzI2OTQyNTkzMDQ1.XbwgWw.j6x3JKRPBXcyCZ2uz8IC-UVNX4s'))
+    loop.create_task(bot.start('NjkyMjM2Njg0OTM0MjUwNTY4.Xnrl4A.aC6y-S55kgBLV9cMEKTO-3kqcp0'))
     loop.run_forever()
 
 
